@@ -62,6 +62,14 @@ To deploy this app we just need to link the Dashboard UI address.
 * **Gurudeep Singh** - [Gurudeep](https://github.com/gudii16 )
 * **Aman Kumar** - [Aman](https://github.com/bullet-ant)
 
+## Acknowledgment
+
+IBM Hack Challenge 2020 Bootcamps:
+* [Nodered](https://www.youtube.com/watch?v=WUB6gySRjQg)
+* [Cloudant](https://www.youtube.com/watch?v=J9xtw0zjDLY&t=6203s)
+* [Machine Learning](https://www.youtube.com/watch?v=Tv_5DHwlYdE)
+* [Notebook Deploy and NodeRED Integration](https://www.youtube.com/watch?v=flQ2-FVxPng)
+
 ## License
 
 This project is licensed under the MIT License
