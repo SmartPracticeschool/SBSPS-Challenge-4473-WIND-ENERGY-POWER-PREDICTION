@@ -1,10 +1,10 @@
-# Wind Energy Power Prediction 🎐
+# P-Wind (Wind Energy Power Prediction) 🎐
 
-This is a web application that shows the estimated wind energy that could be generated from the parameters like wind speed,wind direction and time of the day. The time series in the web app will monitor the estimated power generation for a time wind speed, wind direction. The training of the model will be done with Wind Turbine Scada Dataset 2018. The attributes in the dataset are [Date/Time, LV ActivePower (kW), Wind Speed (m/s), Theoretical_Power_Curve (KWh), Wind Direction (°)].User can use the time series of the web app to fetch the prime hours of production and hence can coordinate with the collaborators.
+P-Wind App helps in predicting the energy output of wind turbine based on weather conditions. Our app can forecast the energy produced and plots it beautifully in a time series for visualization.The user can see the estimated energy of current hour as well as of 72 hours in future.
 
 ## Getting Started
 
-A live demo of the project could be viewed from the link:
+App Stays at
 
 [**My P-Wind App**](https://immense-reef-43943.herokuapp.com/)
 
@@ -21,14 +21,11 @@ A live demo of the project could be viewed from the link:
 
 To get the application up and running follow the below steps:
 
-* In the nodered flow import the flows present in the NodeRED flows folder.
-* Create a notebook in Watson Studio and import the notebook present under Notebooks/Notebooks/finalNotebook1.ipynb.
-* Create a Machine Learning instance in your IBM Cloud services.
-* Deploy the model using WatsonMachineLearningAPI with the service credentials of Watson Machine Learning instance.
-* Create a scoring_url and store it somewhere.
-* Use the OpenWeatherAPI for getting the wind speeds and wind directions.
-* In the flow in the "http" nodes modify it with your own credentials and in the last "http" node conected to Pre-Predictions paste the scoring_url.
-* Deploy the flow and go to Dashboard UI to see the final model.
+* Import the flows into the NodeRed flow editor.
+* Create a project inside Watson Studio service.
+* Inside the project import the dataset and the notebooks.
+* Copy the required service credentials of Watson Studio  and Machine Learning Services and update them into the NodeRed nodes.
+* Deploy the NodeRed flow.
 
 ![alt text](https://i.ibb.co/sH6t26c/2-Current-Pred.png)
 
